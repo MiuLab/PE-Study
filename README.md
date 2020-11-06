@@ -20,8 +20,11 @@ tqdm
 ```
 #### Run code
 1. ```cd classification```
+
 2. Download dataset: [link](https://github.com/AcademiaSinicaNLPLab/sentiment_dataset)
+
 3. Configurate `data_path` and `task` in `config.yaml`
+
 4. Run
 ```python3 main.py```
 
@@ -34,13 +37,17 @@ transformers
 ```
 #### Run code
 1.```cd lm```
+
 2. Download dataset: [link](https://www.salesforce.com/products/einstein/ai-research/the-wikitext-dependency-language-modeling-dataset/)
+
 3. Configurate `TRAIN_FILE`, `TEST_FILE` and `OUTPUT` in `wikitext2.sh` and `wikitext103.sh`
+
 4. Run
 ```
 bash wikitext2.sh
 bash wikitext103.sh
 ```
+
 ## Machine Translation
 
 #### Requirement:
@@ -63,6 +70,7 @@ bash train_multi30k.sh
 ```
 bash generate_multi30k.sh
 ```
+
 ## Reference
 Main paper to be cited
 ```

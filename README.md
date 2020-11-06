@@ -59,7 +59,7 @@ bash prepare-multi30k.sh
 ```
 bash train_multi30k.sh
 ```
-5. Generate translation & evaluation
+4. Generate translation & evaluation
 ```
 bash generate_multi30k.sh
 ```

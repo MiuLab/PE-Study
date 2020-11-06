@@ -1,5 +1,5 @@
-from transformers import BertModel, RobertaModel, GPT2Model, OpenAIGPTModel, BartModel
-from sklearn.metrics.pairwise import cosine_similarity, manhattan_distances
+from transformers import BertModel, RobertaModel, GPT2Model, OpenAIGPTModel
+from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.linear_model import LinearRegression
 from sklearn.svm import SVR
 from sklearn.model_selection import cross_val_score, KFold

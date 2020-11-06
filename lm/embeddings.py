@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
-from sklearn.decomposition import PCA
+#from sklearn.decomposition import PCA
 import math
 
 

@@ -1,0 +1,13 @@
+data_path: '/tmp2/sentiment_dataset/'
+task: 'CR'
+device: 'cuda:0'
+gradient_accumulation_steps: 1
+logging_steps: 40
+seed: 7122
+train:
+    n_epoch: 30
+    batch_size: 32
+optimizer:
+    lr: 1.0e-4
+model:
+    pe: null

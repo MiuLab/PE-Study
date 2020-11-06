@@ -1,5 +1,7 @@
 # PE-Study
-Code of paper [What Do Position Embeddings Learn? An Empirical Study of Pre-Trained Language Model Positional Encoding](https://arxiv.org/abs/2010.04903)
+Code of paper:
+
+[What Do Position Embeddings Learn? An Empirical Study of Pre-Trained Language Model Positional Encoding](https://arxiv.org/abs/2010.04903) (EMNLP 2020)
 
 ## Absolute & Relative Position Regression
 #### Run code
